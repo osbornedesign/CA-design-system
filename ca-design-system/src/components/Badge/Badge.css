@@ -1,0 +1,54 @@
+:root {
+  --primary: #4D68EF;
+  --success: #068443;
+  --warning: #F3A712;
+  --danger: #E50B50;
+  --black: #140F2D;
+  --gray: #DEDEDF;
+  --white: #ffffff;
+}
+
+.badge:disabled,
+.badge[disabled]{
+  opacity: .5;
+  pointer-events: none;
+}
+
+.badge {
+  border-radius: 100px;
+  display: inline-block;
+  font-family: 'Nunito Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+.badge-primary {
+  background: var(--gray);
+  border: 1px solid var(--gray);
+  color: var(--black);
+}
+.badge-secondary {
+  background: var(--white);
+  border: 1px solid rgba(20,15,45,0.25);
+  color: var(--black);
+}
+
+.badge-success {
+  background: var(--success);
+  border: 1px solid var(--success);
+  color: var(--white);
+}
+
+.badge-warning {
+  background: var(--warning);
+  border: 1px solid var(--warning);
+  color: var(--black);
+}
+
+.badge-danger {
+  background: var(--danger);
+  border: 1px solid var(--danger);
+  color: var(--white);
+}

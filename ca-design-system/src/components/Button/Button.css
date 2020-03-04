@@ -1,0 +1,78 @@
+button:disabled,
+button[disabled]{
+  opacity: .5;
+  pointer-events: none;
+}
+
+.btn {
+  border-radius: 3px;
+  font-family: 'Nunito Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background: #3E51BE;
+  border: 1px solid #3E51BE;
+}
+
+.btn-secondary {
+  background: var(--white);
+  border: 1px solid rgba(20,15,45,0.25);
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background: #DEDEDF;
+}
+
+.btn-success {
+  background: var(--success);
+  border: 1px solid var(--success);
+  color: var(--white);
+}
+
+.btn-success:hover {
+  background: #086C3E;
+  border: 1px solid #086C3E;
+}
+
+.btn-warning {
+  background: var(--warning);
+  border: 1px solid var(--warning);
+  color: var(--black);
+}
+
+.btn-warning:hover {
+  background: #D19016;
+  border: 1px solid #D19016;
+}
+
+.btn-danger {
+  background: var(--danger);
+  border: 1px solid var(--danger);
+  color: var(--white);
+}
+
+.btn-danger:hover {
+  background: #BB0B49;
+  border: 1px solid #BB0B49;
+}
+
+
+/* button sizes */
+.btn-sm {
+  padding: 0px;
+}
+
+.btn-md {
+  padding: 8px 16px;
+}
